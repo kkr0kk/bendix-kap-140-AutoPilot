@@ -1,6 +1,5 @@
-SIM Cessna 172 - AutoPilot - DIY
-<img src='https://github.com/kkr0kk/c172-xpndr/blob/main/images/bendix-KT76C.jpg' />
-<img src='https://github.com/kkr0kk/c172-xpndr/blob/main/images/bendix-KT76C-back.jpg' />
+SIM Cessna 172 - AutoPilot - DIY<BR />
+
 Build your own autopilot for simulation cockpit cessna 172.<BR />
 Format 159x41 mm for 6.25" stack<BR />
 Electronics are design with EasyEDA.<BR />
