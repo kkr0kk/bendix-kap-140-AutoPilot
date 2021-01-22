@@ -1,0 +1,432 @@
+{
+  "uuid": "986783d8be00223665f0f2edcf8e032f",
+  "path": "Offline/Cokpit V3- AutoPilot",
+  "name": "Cokpit V3- AutoPilot",
+  "content": "",
+  "created_at": "2021-01-20 19:33:02",
+  "updated_at": "2021-01-22 14:38:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0565c37d935f883e224314edd6f8e725",
+      "title": "AutoPilot",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36be002046ee442daec3a30b0f22c9fe": 16,
+        "a7a0e276dadd4f8097422d2afc2e1b9c": 1,
+        "253ff9e37bbb4c3081915352d3b6344b": 1,
+        "242de62ad07445ce99480767bd3a6a74": 2,
+        "7244b6db4f4f4693a7ae166c3cf06e02": 1,
+        "0af997e8f1aa49d984ffe736a876c8dd": 10,
+        "0241659c98404d3c94c31ac82c3ab1b4": 1,
+        "99c36b382e4749d78bc050831d1725fe": 15,
+        "a9c8a118b3fe4ee3acf8e96abc6e0406": 10,
+        "8adc152594fa4e9b92c304788c2fc277": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "VS+",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "HDG",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "REV",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "ALT",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "ARM",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "APR",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "VS-",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "BARO",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "AP",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "NAV",
+          1,
+          "SW_PUSH_BUTTON_MINI_7X7MM",
+          "SW3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d46027451dc496eb1e429d7b9c168ba",
+            "uuid": "0af997e8f1aa49d984ffe736a876c8dd"
+          }
+        ],
+        [
+          "EC11EBB24C03",
+          1,
+          "DUAL ENCODER W/CLICK",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "EC11EBB24C03",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "492bf899fe40405b96f88f100fa6e5e4",
+            "uuid": "8adc152594fa4e9b92c304788c2fc277"
+          }
+        ],
+        [
+          "1k",
+          10,
+          "RESISTANCE",
+          "R9,R8,R2,R13,R12,R15,R14,R11,R10,R16",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "82aec45f24fa4032bbd34e310e6d3dc3",
+            "uuid": "36be002046ee442daec3a30b0f22c9fe"
+          }
+        ],
+        [
+          "10k",
+          6,
+          "RESISTANCE",
+          "R7,R6,R5,R4,R1,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "82aec45f24fa4032bbd34e310e6d3dc3",
+            "uuid": "36be002046ee442daec3a30b0f22c9fe"
+          }
+        ],
+        [
+          "10 nF",
+          15,
+          "RAD-0.1",
+          "C11,C12,C3,C9,C8,C7,C6,C4,C13,C14,C15,C16,C17,C5,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d8f3b09873bf4bf89243089a133a0e9f",
+            "uuid": "99c36b382e4749d78bc050831d1725fe"
+          }
+        ],
+        [
+          "SEG-TH_0.56×4",
+          2,
+          "LED-SEG-TH_12P-L30.0-W14.0-P2.54-S10.16-BL",
+          "SEG1,SEG2",
+          {
+            "BOM_Manufacturer": "方舟 ARKLED",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "C109200",
+            "BOM_Supplier": "",
+            "puuid": "ecdf889a46f54716b103328b15380b5c",
+            "uuid": "242de62ad07445ce99480767bd3a6a74"
+          }
+        ],
+        [
+          "150nF",
+          1,
+          "CONDENSATEUR",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c4bf8bbf6f8743a7b61403aba1667266",
+            "uuid": "253ff9e37bbb4c3081915352d3b6344b"
+          }
+        ],
+        [
+          "MAX7219",
+          1,
+          "MAX7219_DIP-24",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "DIODES",
+            "BOM_Manufacturer Part": "MAXIM",
+            "BOM_Supplier Part": "C129565",
+            "puuid": "41dbda5cf2af4947a6bb60c527d66343",
+            "uuid": "7244b6db4f4f4693a7ae166c3cf06e02"
+          }
+        ],
+        [
+          "Header 2x15",
+          1,
+          "HDR-M-2.54_2X15",
+          "H1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "31bab2c6be724fddb35cd0a53e8d9a41",
+            "uuid": "0241659c98404d3c94c31ac82c3ab1b4"
+          }
+        ],
+        [
+          "22µF",
+          1,
+          "CONDENSATEUR",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "344d4accbdb84845a91eba565d20fa37",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "ARM",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D7",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "REV",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D5",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "AP",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "ALT",
+          2,
+          "LED2-2.54-D3.0MM",
+          "D6,D10",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "VS",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D8",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "HDG",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "BARO",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D9",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "NAV",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D3",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ],
+        [
+          "APR",
+          1,
+          "LED2-2.54-D3.0MM",
+          "D4",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4f17371357e44d4aa4bbc5e3d4ece0e6",
+            "uuid": "a9c8a118b3fe4ee3acf8e96abc6e0406"
+          }
+        ]
+      ],
+      "updateTime": 1611316371,
+      "createTime": 1609500375,
+      "histories": [],
+      "created_at": "2021-01-01 12:26:15",
+      "updated_at": "2021-01-22 12:52:51"
+    },
+    {
+      "uuid": "2ac56ffea727a388beb6e993991fb605",
+      "puuid": "986783d8be00223665f0f2edcf8e032f",
+      "title": "PCB_autoPilot",
+      "filename": "PCB_autoPilot.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "492bf899fe40405b96f88f100fa6e5e4": 1,
+        "ecdf889a46f54716b103328b15380b5c": 2,
+        "4f17371357e44d4aa4bbc5e3d4ece0e6": 10,
+        "4d46027451dc496eb1e429d7b9c168ba": 10,
+        "82aec45f24fa4032bbd34e310e6d3dc3": 16,
+        "344d4accbdb84845a91eba565d20fa37": 1,
+        "c4bf8bbf6f8743a7b61403aba1667266": 1,
+        "d8f3b09873bf4bf89243089a133a0e9f": 15,
+        "41dbda5cf2af4947a6bb60c527d66343": 1,
+        "31bab2c6be724fddb35cd0a53e8d9a41": 1
+      },
+      "BOM": [],
+      "updateTime": 1611322690,
+      "createTime": 1611226503,
+      "histories": [],
+      "created_at": "2021-01-21 11:55:03",
+      "updated_at": "2021-01-22 14:38:10"
+    }
+  ],
+  "sort": [
+    "0565c37d935f883e224314edd6f8e725",
+    "dea9690be289b503f876f467d37af41c"
+  ],
+  "title": "Cokpit V3- AutoPilot",
+  "foldername": "Cokpit V3- AutoPilot",
+  "schfilename": "Cokpit V3- AutoPilot.json",
+  "schfilemtime": 1611316371528
+}
