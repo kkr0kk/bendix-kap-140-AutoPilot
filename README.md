@@ -28,3 +28,4 @@ I made 2 STL file, "main.STL" for the first part and "main - second layer printi
 Create 2 gcode files with their parts, parts need to be at the same place (use center platform function).
 First Start with 0.2mm head and PLA CLEAR, and when the printer go pause, cancel the print<BR />
 Change the head to 0.6mm and PLA BLACK, and start the second part "main - second layer printing.STL".<BR />
+GCODE files are on github.<BR />
