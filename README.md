@@ -13,8 +13,9 @@ Only electronics, you can choose the microcontroller of your choice, the base de
 For mine i use Mega2560R3 and Mobiflight on MSFS2020--> <a href='https://www.mobiflight.com/en/index.html'>MOBIFLIGHT</a><BR />
 For others controllers you need to design the support for the card, or add wires to link them.
 
-<H2>CURA configuration</H2><BR />
-With CURA i modified a plugin to add 2 pauses (printing buttons by example) --> <a href='https://github.com/kkr0kk/c172-autopilot/blob/main/Gcode/pauseAtZ.py'>Here</a><BR />
+<H2>3D Printing</H2><BR />
+<H3>CURA  configuration</H3>
+With CURA you need plugin PauseAtZ, i modified the plugin to add 2 pauses (printing buttons by example) download and install it--> <a href='https://github.com/kkr0kk/c172-autopilot/blob/main/Gcode/pauseAtZ.py'>Here</a><BR />
 <H3>Printing Buttons</H3>
 The first pause is set to 0.25mm height and the second is set to 0.45mm height with a config layer height 0.1mm.<BR />
 I'm printing buttons with 0.2mm head<BR />
