@@ -13,7 +13,7 @@ Only electronics, you can choose the microcontroller of your choice, the base de
 For mine i use Mega2560R3 and Mobiflight on MSFS2020--> <a href='https://www.mobiflight.com/en/index.html'>MOBIFLIGHT</a><BR />
 For others controllers you need to design the support for the card, or add wires to link them.
 
-<H2>3D Printing</H2><BR />
+<H2>3D Printing</H2>
 <H3>Materials</H3>
 - HEAD : 0.2mm and 0.6mm<BR />
 - PLA BLACK, WHITE and CLEAR color<BR />
