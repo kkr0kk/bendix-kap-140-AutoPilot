@@ -35,3 +35,5 @@ First Start with 0.2mm head and PLA CLEAR, and when the printer go pause, cancel
 Change the head to 0.6mm and PLA BLACK, and start the second part "main - second layer printing.STL".<BR />
 GCODE files are on github.<BR />
 <H2>SUPPORT for controller</H2>
+<H2>Other Projects</H2>
+Build transponder KT76C for Cessna172 -> <a href='https://github.com/kkr0kk/c172-xpndr'>Transponder</a><BR />
