@@ -14,6 +14,7 @@ For mine i use Mega2560R3 and Mobiflight on MSFS2020--> <a href='https://www.mob
 For others controllers you need to design the support for the card, or add wires to link them.
 <img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/AP%20-%203D%20view.png?raw=true'></img>
 <H2>ELECTRONICS</H2>
+<img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/main%20-%20shematic.png?raw=true'></img>
 <img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/main%20-%20PCB.png?raw=true'></img>
 <H2>3D Printing</H2>
 <H3>Materials</H3>
