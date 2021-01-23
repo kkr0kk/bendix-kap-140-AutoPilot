@@ -16,6 +16,162 @@ For others controllers you need to design the support for the card, or add wires
 <H2>ELECTRONICS</H2>
 <img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/main%20-%20shematic.png?raw=true'></img>
 <img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/main%20-%20PCB.png?raw=true'></img>
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Controller PIN</th>
+<th title="Field #2">Header PIN</th>
+<th title="Field #3">Description</th>
+</tr></thead>
+<tbody><tr>
+<td>5V</td>
+<td align="right">1</td>
+<td>5V</td>
+</tr>
+<tr>
+<td>22</td>
+<td align="right">2</td>
+<td>Encoder double</td>
+</tr>
+<tr>
+<td>23</td>
+<td align="right">3</td>
+<td>Encoder double</td>
+</tr>
+<tr>
+<td>24</td>
+<td align="right">4</td>
+<td>Encoder double</td>
+</tr>
+<tr>
+<td>25</td>
+<td align="right">5</td>
+<td>Encoder double</td>
+</tr>
+<tr>
+<td>26</td>
+<td align="right">6</td>
+<td>Encoder double push button</td>
+</tr>
+<tr>
+<td>27</td>
+<td align="right">7</td>
+<td>Button AP</td>
+</tr>
+<tr>
+<td>28</td>
+<td align="right">8</td>
+<td>Button HDG</td>
+</tr>
+<tr>
+<td>29</td>
+<td align="right">9</td>
+<td>Button NAV</td>
+</tr>
+<tr>
+<td>30</td>
+<td align="right">10</td>
+<td>Button APR</td>
+</tr>
+<tr>
+<td>31</td>
+<td align="right">11</td>
+<td>Button REV</td>
+</tr>
+<tr>
+<td>32</td>
+<td align="right">12</td>
+<td>Button ALT</td>
+</tr>
+<tr>
+<td>33</td>
+<td align="right">13</td>
+<td>Button VS-</td>
+</tr>
+<tr>
+<td>34</td>
+<td align="right">14</td>
+<td>Button VS+</td>
+</tr>
+<tr>
+<td>35</td>
+<td align="right">15</td>
+<td>Button ARM</td>
+</tr>
+<tr>
+<td>36</td>
+<td align="right">16</td>
+<td>Button BARO</td>
+</tr>
+<tr>
+<td>37</td>
+<td align="right">17</td>
+<td>Afficheur DIN</td>
+</tr>
+<tr>
+<td>38</td>
+<td align="right">18</td>
+<td>Afficheur LOAD (CS)</td>
+</tr>
+<tr>
+<td>39</td>
+<td align="right">19</td>
+<td>Afficheur CLK</td>
+</tr>
+<tr>
+<td>40</td>
+<td align="right">20</td>
+<td>Button LED AP</td>
+</tr>
+<tr>
+<td>41</td>
+<td align="right">21</td>
+<td>Button LED HDG</td>
+</tr>
+<tr>
+<td>42</td>
+<td align="right">22</td>
+<td>Button LED NAV</td>
+</tr>
+<tr>
+<td>43</td>
+<td align="right">23</td>
+<td>Button LED APR</td>
+</tr>
+<tr>
+<td>44</td>
+<td align="right">24</td>
+<td>Button LED REV</td>
+</tr>
+<tr>
+<td>45</td>
+<td align="right">25</td>
+<td>Button LED ALT</td>
+</tr>
+<tr>
+<td>46</td>
+<td align="right">26</td>
+<td>Button LED ARM</td>
+</tr>
+<tr>
+<td>47</td>
+<td align="right">27</td>
+<td>screen LED VS</td>
+</tr>
+<tr>
+<td>48</td>
+<td align="right">28</td>
+<td>screen LED BARO</td>
+</tr>
+<tr>
+<td>49</td>
+<td align="right">29</td>
+<td>Screen LED ALT</td>
+</tr>
+<tr>
+<td>GND</td>
+<td align="right">30</td>
+<td>GND</td>
+</tr>
+</tbody></table>
 <H2>3D Printing</H2>
 <H3>Materials</H3>
 - HEAD : 0.2mm and 0.6mm<BR />
