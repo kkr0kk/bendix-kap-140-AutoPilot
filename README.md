@@ -1,4 +1,4 @@
-SIM Cessna 172 - AutoPilot - DIY<BR />
+<H1>SIM Cessna 172 - AutoPilot - DIY</H1>
 
 <H1>WORK IN PROGRESS, don't build this for now, NOT TESTED YET</H1>
 
