@@ -1,6 +1,6 @@
 <H1>SIM Cessna 172 - AutoPilot - DIY</H1>
 
-<H1><font color = "red">WORK IN PROGRESS, don't build this for now, NOT TESTED YET</font></H1>
+<H1>WORK IN PROGRESS, don't build this for now, NOT TESTED YET</H1>
 
 Build your own autopilot for simulation cockpit cessna 172.<BR />
 Format 159x41 mm for 6.25" stack<BR />
