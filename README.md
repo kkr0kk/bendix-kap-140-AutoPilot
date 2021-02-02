@@ -198,3 +198,4 @@ GCODE files are on github.<BR />
 <img src='https://github.com/kkr0kk/c172-autopilot/blob/main/images/support_mega2560-pro-mini_PCB.png?raw=true'></img>
 <H2>Other Projects</H2>
 Build transponder KT76C for Cessna172 -> <a href='https://github.com/kkr0kk/c172-xpndr'>Transponder</a><BR />
+Build GNS530 -> <a href='https://github.com/kkr0kk/GNS530'>GNS530</a><BR />
