@@ -1,7 +1,5 @@
 <H1>BENDIX KAP 140 - Simulation AutoPilot - for Cessna 172 - DIY</H1>
 
-<H1>NOT TESTED YET</H1>
-
 Build your own autopilot for simulation cockpit.<BR />
 Format for 6.25" stack<BR />
 Electronics are design with EasyEDA.<BR />
