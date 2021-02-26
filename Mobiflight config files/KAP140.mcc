@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="aa35f631-1750-4a17-b4db-b74b18b5e2a8">
+      <active>true</active>
+      <description>KAP140 - l-AP</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07BC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-AP" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="55e8833e-a8d9-48bf-8cee-f56431b6eaf7" placeholder="B" />
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="A" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="@" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="?" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="§" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="454931ec-9693-45e8-b10d-7f99afaed750">
+      <active>true</active>
+      <description>KAP140 - ALT mode LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07D0" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="s-ALT" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="A" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="@" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="?" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="§" />
+          <configref active="False" ref="55e8833e-a8d9-48bf-8cee-f56431b6eaf7" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="d92154b3-45ea-4304-927a-1229c844b449">
+      <active>true</active>
+      <description>KAP140 - afficheur ALT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Display Module" serial="KAP140/ SN-658-ba3" trigger="normal" ledAddress="AP-afficheur" ledConnector="1" ledModuleSize="8" ledPadding="True" ledReverseDigits="True" ledPaddingChar=" " ledDigits="0,1,2,3,4,5,6,7" />
+        <preconditions>
+          <precondition type="config" active="true" ref="bfb1b432-69c9-4a13-92e1-a40b7be2a46b" operand="=" value="0" logic="and" />
+        </preconditions>
+        <transformation active="True" expression="(Round(($*3.28084/65536)/100,2)*100)" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="A" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="@" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="?" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="§" />
+          <configref active="False" ref="55e8833e-a8d9-48bf-8cee-f56431b6eaf7" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f756a754-8b5f-466c-9a77-5dd86577af90">
+      <active>true</active>
+      <description>KAP140 - l-HDG</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07C8" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-HDG" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="@" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="864eb683-0654-49c2-9a7a-c310e73a4bcc">
+      <active>true</active>
+      <description>KAP140 - l-NAV</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07C4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-NAV" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="b33fdcdb-abef-4043-a65c-64b2f9850974">
+      <active>true</active>
+      <description>KAP140 - l-APR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x0800" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-APR" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c9f09320-7bac-47f7-8718-559d7a759d37">
+      <active>true</active>
+      <description>KAP140 - l-REV</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x0804" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-REV" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="55e8833e-a8d9-48bf-8cee-f56431b6eaf7">
+      <active>true</active>
+      <description>AP-led6</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07EC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="mega2 - AP/ SN-142-2e3" trigger="normal" pin="AP-led6" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="B" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="8bc929bb-410e-4f10-a6d1-e4724cf8c805">
+      <active>true</active>
+      <description>KAP140 - lARM</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x0000" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-ARM" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="0" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="B" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9701002b-5162-4bc2-9ff5-c946f472b7dd">
+      <active>true</active>
+      <description>KAP140 - l-ALT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07D0" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="l-ALT" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="B" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="af20e2f5-c58d-49be-9dc8-9ab0098806f0">
+      <active>true</active>
+      <description>KAP140 - afficheur VS mode</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07F2" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Display Module" serial="KAP140/ SN-658-ba3" trigger="normal" ledAddress="AP-afficheur" ledConnector="1" ledModuleSize="8" ledPadding="True" ledReverseDigits="True" ledPaddingChar=" " ledDigits="0,1,2,3,4,5,6,7" />
+        <preconditions>
+          <precondition type="config" active="true" ref="bfb1b432-69c9-4a13-92e1-a40b7be2a46b" operand="=" value="1" logic="and" />
+        </preconditions>
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="B" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="14d32241-640f-465e-b3ae-8b993d26d2e6">
+      <active>true</active>
+      <description>KAP140 - VS mode LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x07EC" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="KAP140/ SN-658-ba3" trigger="normal" pin="s-VS" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0706be82-d498-4339-87dd-949c627aeec7" placeholder="B" />
+          <configref active="False" ref="81c5a60a-4bf3-437b-ad7a-44d05e64e1a5" placeholder="A" />
+          <configref active="False" ref="4a5cbfa9-a5a2-4699-898c-849199c973c2" placeholder="@" />
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="?" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="bfb1b432-69c9-4a13-92e1-a40b7be2a46b">
+      <active>true</active>
+      <description>KAP140 - screen mode</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="2bcd9449-75ff-42f7-a242-1d601c88ee65" placeholder="B" />
+          <configref active="False" ref="d92154b3-45ea-4304-927a-1229c844b449" placeholder="A" />
+          <configref active="False" ref="454931ec-9693-45e8-b10d-7f99afaed750" placeholder="@" />
+          <configref active="False" ref="ac28d081-8edf-4239-926d-3767c3a00b73" placeholder="?" />
+          <configref active="False" ref="aa35f631-1750-4a17-b4db-b74b18b5e2a8" placeholder="§" />
+          <configref active="False" ref="b614e98e-abdb-4464-867f-2d5a95540498" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="4949b8be-13c0-47d4-add3-7d70d8bf448d">
+      <active>true</active>
+      <description>KAP140 - b-AP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-AP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_AP" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="3f88ed68-d753-4155-ac86-7c5123e69f81">
+      <active>true</active>
+      <description>KAP140 - b-HDG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-HDG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_HDG" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="c526222a-d215-4c71-b454-d605cb2e53fe">
+      <active>true</active>
+      <description>KAP140 - b-NAV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-NAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_NAV" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="d364ed49-281e-4260-81da-78e6796eced8">
+      <active>true</active>
+      <description>KAP140 - b-APR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-APR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_APR" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="1656e588-62b4-4119-ad96-529fcaf5c30e">
+      <active>true</active>
+      <description>KAP140 - b-REV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-REV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_REV" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="d071b1a2-d6df-456b-8baa-a74b87636755">
+      <active>true</active>
+      <description>KAP140 - b-ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_ALT" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="b6d7e3d0-d6dc-4975-a66e-7e8eac3581eb">
+      <active>true</active>
+      <description>KAP140 - b-ALT change screen to VS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" inputValue="1" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions>
+          <precondition type="config" active="true" ref="454931ec-9693-45e8-b10d-7f99afaed750" operand="=" value="1" logic="and" />
+        </preconditions>
+      </settings>
+    </config>
+    <config guid="ec72c7d7-b4db-4c32-9fe9-8d500e435fdc">
+      <active>true</active>
+      <description>KAP140 - b-ALT change screen to ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" inputValue="0" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions>
+          <precondition type="config" active="true" ref="454931ec-9693-45e8-b10d-7f99afaed750" operand="=" value="0" logic="and" />
+        </preconditions>
+      </settings>
+    </config>
+    <config guid="57cae00c-660d-44ec-af52-2b8dd15627dc">
+      <active>true</active>
+      <description>KAP140 - b-ARM</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-ARM" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D0" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="1" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions>
+          <precondition type="config" active="true" ref="14d32241-640f-465e-b3ae-8b993d26d2e6" operand="=" value="1" logic="and" />
+        </preconditions>
+      </settings>
+    </config>
+    <config guid="42066c32-33a8-4337-8be7-c5d965ca7f2d">
+      <active>true</active>
+      <description>KAP140 - b-BARO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-BARO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_BARO" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="45e73ce8-b872-4e67-a82f-4f1e694998fb">
+      <active>true</active>
+      <description>KAP140 - b-V-</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-VS-" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_DN" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="942995b8-d328-4651-8a0a-fcc1db0c2ffb">
+      <active>true</active>
+      <description>KAP140 - b-V- change screen</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-VS-" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" inputValue="1" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="51504d1f-d71c-44c2-ae9d-020770af1d3a">
+      <active>true</active>
+      <description>KAP140 - b-V+</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-VS+" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="KAP140_Push_UP" />
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="576aebc4-eeb7-4af8-8b37-115eff2c4893">
+      <active>true</active>
+      <description>KAP140 - b-V+ change screen</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="b-VS+" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" inputValue="1" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="23e124a8-5a96-4e3a-b47a-5c04a5281d3d">
+      <active>true</active>
+      <description>KAP140 - enc1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="ENC-1" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="if (($-9987685)&lt;0,0,($-9987685))" />
+          </onLeft>
+          <onLeftFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="if (($-9987685)&lt;0,0,($-9987685))" />
+          </onLeftFast>
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$+9987685" />
+          </onRight>
+          <onRightFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$+9987685" />
+          </onRightFast>
+        </encoder>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="3c11cac0-69de-4879-afcc-bd9a8f4510ca">
+      <active>true</active>
+      <description>KAP140 - enc1 change screen</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="ENC-1" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onLeft>
+          <onLeftFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onLeftFast>
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onRight>
+          <onRightFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onRightFast>
+        </encoder>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="9670e475-ecb2-4b7b-90d8-cab27c383cc2">
+      <active>true</active>
+      <description>KAP140 - enc2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="ENC-2" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$-1997537" />
+          </onLeft>
+          <onLeftFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$-1997537" />
+          </onLeftFast>
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$+1997537" />
+          </onRight>
+          <onRightFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x07D4" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="$+1997537" />
+          </onRightFast>
+        </encoder>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="63c21655-c284-4240-b3cf-95846a0539de">
+      <active>true</active>
+      <description>KAP140 - enc2 change screen</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="ENC-2" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onLeft>
+          <onLeftFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onLeftFast>
+          <onRight type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onRight>
+          <onRightFast type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" inputValue="0" />
+          </onRightFast>
+        </encoder>
+        <preconditions />
+      </settings>
+    </config>
+    <config guid="46462476-227f-4dd1-a291-6a1044612a6e">
+      <active>true</active>
+      <description>KAP140 - screen mode switch</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=8.0.2.1, Culture=neutral, PublicKeyToken=null" serial="KAP140/ SN-658-ba3" name="enc push button" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="FsuipcOffsetInputAction">
+            <source type="FSUIPC" offset="0x66D7" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" inputValue="if($=1,0,1)" />
+          </onPress>
+          <onRelease />
+        </button>
+        <preconditions />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

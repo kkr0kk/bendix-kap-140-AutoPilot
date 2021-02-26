@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleName>KAP140</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="b-AP" Pin="27" />
+  <Encoder Name="ENC-1" PinLeft="22" PinRight="23" EncoderType="0" />
+  <Output Name="l-AP" Pin="40" />
+  <LedModule Name="AP-afficheur" DinPin="37" ClsPin="38" ClkPin="39" Brightness="7" NumModules="1" />
+  <Button Name="b-HDG" Pin="28" />
+  <Button Name="b-NAV" Pin="29" />
+  <Button Name="b-APR" Pin="30" />
+  <Button Name="b-REV" Pin="31" />
+  <Button Name="b-ALT" Pin="32" />
+  <Button Name="b-VS-" Pin="33" />
+  <Button Name="b-VS+" Pin="34" />
+  <Encoder Name="ENC-2" PinLeft="24" PinRight="25" EncoderType="0" />
+  <Output Name="l-HDG" Pin="41" />
+  <Output Name="l-NAV" Pin="42" />
+  <Output Name="l-APR" Pin="43" />
+  <Output Name="l-REV" Pin="44" />
+  <Output Name="l-ALT" Pin="45" />
+  <Output Name="s-BARO" Pin="48" />
+  <Output Name="s-VS" Pin="47" />
+  <Output Name="s-ALT" Pin="49" />
+  <Button Name="b-ARM" Pin="35" />
+  <Button Name="b-BARO" Pin="36" />
+  <Output Name="l-ARM" Pin="46" />
+  <Button Name="enc push button" Pin="26" />
+</Config>
